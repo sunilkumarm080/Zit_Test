@@ -1,8 +1,9 @@
 {
-  "builds": [
-    { "src": "src/*.js", "use": "@now/node" }
-  ],
-  "routes": [
-    { "src": "/", "dest": "src/index.js" }
-  ]
-}
+    "version": 1, // Tells Now which API version to use
+    "builds": [
+      {
+        "src": "*.js",
+        "use": "@now/node-server" // It's an application!
+      }
+    ]
+  }

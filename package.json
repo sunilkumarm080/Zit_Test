@@ -1,17 +1,29 @@
 {
-  "name": "friendly-moser-deplyment",
+  "name": "zeit_deployment_test",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
+  "description": "This is a Sample Application for the Node js Test For Zeit",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon src/index.js localhost 8080"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "nodemon node app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunilkumarm080/Zit_Test.git"
+  },
+  "keywords": [
+    "Zeit",
+    "Deployment",
+    "Example"
+  ],
+  "author": "Sunil Kumar M <sunilkumar.m080@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunilkumarm080/Zit_Test/issues"
+  },
+  "homepage": "https://github.com/sunilkumarm080/Zit_Test#readme",
   "dependencies": {
-    "babel": "6.23.0",
-    "babel-core": "6.26.3"
-  },
-  "devDependencies": {
-    "nodemon": "1.18.4"
-  },
-  "keywords": []
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  }
 }
